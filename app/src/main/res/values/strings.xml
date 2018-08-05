@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">嵌套使用fragment</string>
+    <string name="hinttext">请输入名称或备注进行搜索</string>
+</resources>

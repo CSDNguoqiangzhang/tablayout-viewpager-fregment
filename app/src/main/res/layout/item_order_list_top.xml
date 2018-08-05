@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_order_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="0dp"
+    android:layout_marginTop="5dp"
+    android:background="@android:color/white"
+    android:gravity="center_vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp">
+
+    <View
+        android:id="@+id/v_v"
+        android:layout_width="8dp"
+        android:layout_height="12sp"
+        android:layout_alignBottom="@+id/tv_order_number_show"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/tv_order_number_show"
+        android:layout_centerVertical="true"
+        android:background="@android:color/holo_red_light" />
+
+    <TextView
+        android:id="@+id/tv_order_number_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/v_v"
+        android:text="订单号："
+        android:textColor="@android:color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_order_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/tv_order_number_show"
+        android:text="00"
+        android:textColor="@android:color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_order_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="状态"
+        android:textColor="@android:color/black"
+        android:textSize="12sp" />
+</RelativeLayout>

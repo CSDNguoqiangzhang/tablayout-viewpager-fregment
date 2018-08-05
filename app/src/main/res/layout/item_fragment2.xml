@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"></LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="match_parent"
+            android:layout_height="520dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:id="@+id/re4"
+                    android:layout_width="391dp"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="@dimen/touxiangheight"
+                        android:layout_height="@dimen/touxiangheight"
+                        android:background="@mipmap/touxiang4" />
+
+                    <TextView
+                        android:id="@+id/textView42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/textView35"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignStart="@+id/textView35"
+                        android:text="请一定要快速到达" />
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="38dp"
+                        android:layout_marginStart="38dp"
+                        android:layout_toEndOf="@+id/imageView9"
+                        android:layout_toRightOf="@+id/imageView9"
+                        android:text="孙红" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="410dp"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/xiahuaxian" />
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/re5"
+                    android:layout_width="391dp"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="@dimen/touxiangheight"
+                        android:layout_height="@dimen/touxiangheight"
+                        android:background="@mipmap/touxiang5" />
+
+                    <TextView
+                        android:id="@+id/textView41"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/textView36"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignStart="@+id/textView36"
+                        android:text="我们明天会有优惠的" />
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="38dp"
+                        android:layout_marginStart="38dp"
+                        android:layout_toEndOf="@+id/imageView10"
+                        android:layout_toRightOf="@+id/imageView10"
+                        android:text="赵斌" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="410dp"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/xiahuaxian" />
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/re6"
+                    android:layout_width="391dp"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="@dimen/touxiangheight"
+                        android:layout_height="@dimen/touxiangheight"
+                        android:background="@mipmap/touxiang6" />
+
+                    <TextView
+                        android:id="@+id/textView40"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/textView37"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignStart="@+id/textView37"
+                        android:text="把昨天的发货地址打给我一遍" />
+
+                    <TextView
+                        android:id="@+id/textView37"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="38dp"
+                        android:layout_marginStart="38dp"
+                        android:layout_toEndOf="@+id/imageView11"
+                        android:layout_toRightOf="@+id/imageView11"
+                        android:text="吴管" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="410dp"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/xiahuaxian" />
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/re7"
+                    android:layout_width="391dp"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="@dimen/touxiangheight"
+                        android:layout_height="@dimen/touxiangheight"
+                        android:background="@mipmap/touxiang7" />
+
+                    <TextView
+                        android:id="@+id/textView39"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/textView38"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignStart="@+id/textView38"
+                        android:text="明天会下雨吗？" />
+
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="38dp"
+                        android:layout_marginStart="38dp"
+                        android:layout_toEndOf="@+id/imageView12"
+                        android:layout_toRightOf="@+id/imageView12"
+                        android:text="周州" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="410dp"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/xiahuaxian" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/re1"
+                    android:layout_width="391dp"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="@dimen/touxiangheight"
+                        android:layout_height="@dimen/touxiangheight"
+                        android:background="@mipmap/touxiang1" />
+
+                    <TextView
+                        android:id="@+id/textView45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/textView32"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignStart="@+id/textView32"
+                        android:text="您好，请问我的黄瓜发货了吗？" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="31dp"
+                        android:layout_marginStart="31dp"
+                        android:layout_toEndOf="@+id/imageView6"
+                        android:layout_toRightOf="@+id/imageView6"
+                        android:text="李四" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="410dp"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/xiahuaxian" />
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/re2"
+                    android:layout_width="391dp"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="@dimen/touxiangheight"
+                        android:layout_height="@dimen/touxiangheight"
+                        android:background="@mipmap/touxiang2" />
+
+                    <TextView
+                        android:id="@+id/textView44"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/textView33"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignStart="@+id/textView33"
+                        android:text="现在价格是多少钱一斤了" />
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="38dp"
+                        android:layout_marginStart="38dp"
+                        android:layout_toEndOf="@+id/imageView7"
+                        android:layout_toRightOf="@+id/imageView7"
+                        android:text="王五" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="410dp"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/xiahuaxian" />
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/re3"
+                    android:layout_width="391dp"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="@dimen/touxiangheight"
+                        android:layout_height="@dimen/touxiangheight"
+                        android:background="@mipmap/touxiang3" />
+
+                    <TextView
+                        android:id="@+id/textView43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/textView34"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignStart="@+id/textView34"
+                        android:text="明天就给您发货，请不要着急哦，亲！" />
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="38dp"
+                        android:layout_marginStart="38dp"
+                        android:layout_toEndOf="@+id/imageView8"
+                        android:layout_toRightOf="@+id/imageView8"
+                        android:text="赵六" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="410dp"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/xiahuaxian" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>
